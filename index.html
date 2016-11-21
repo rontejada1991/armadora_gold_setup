@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Armadora Gold Setup Application</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+    </head>
+    <body>
+        <div class="ui container segment">
+            <h1 class="ui header">Armadora Gold Setup</h1>
+            <button id="reset_button" class="positive ui button">New Game</button>
+            <button id="about_button" class="ui icon button">About</button>
+            <div id="about_message" class="ui message">
+              <i class="close icon"></i>
+              <div class="header">About</div>
+              <p>This web application is a tool to be used during the gold setup portion of the tabletop board game <a href="https://boardgamegeek.com/boardgame/8229/armadora">Armadora</a>.</p> 
+              <p>The app distributes the 40 'Gold' into 8 piles and places them randomly on the 8 gold mine zones.</p>
+              <p>Click <em>New Game</em> to get started! Have fun!</p>
+              <p>By Ronald Tejada</p>
+            </div>
+            <div id="gameboard" class="ui eight column grid"></div>
+        </div>
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+    	    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    	    crossorigin="anonymous">
+        </script>    
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

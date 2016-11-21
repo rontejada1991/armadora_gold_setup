@@ -1,0 +1,46 @@
+body {
+    background: #123456 url("../images/armadora.jpg") center fixed;
+}
+
+.ui.header {
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+}
+
+.cell {
+    width:  100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.ui.grid {
+    margin: 0px;
+    margin-top: 14px;
+    border: 1px solid black;
+}
+
+.ui.grid > .row {
+    padding: 0px;
+}
+
+.normal_cell {
+    background: #79c879;
+    background-image: url("../images/grasslands.jpg");
+}
+
+.gold_cell {
+    background: #ffd700;
+    text-align: center;
+    background-image: url("../images/gold.jpg");
+}
+
+.gold_value.ui.huge.header{
+    line-height: 98px;
+    display: none;
+    color: yellow;
+}
+
+#about_message {
+    display: none;
+}
